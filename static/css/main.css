@@ -1,0 +1,176 @@
+/*采用缩放比缩放页面*/
+ html ,body{
+ transform:scale(0.67,0.72);
+ transform-origin :left top 0px;
+ }
+ /*主页面放缩来做 top left | left top 等价于 0 0；*/
+ /*左边页面*/
+.main{
+     width:1920px;
+     height: 1080px;
+    padding:10px 0px 0px 0px;
+     background-image: url("../images/左.png");
+     background-repeat: no-repeat;
+     background-position:  center center;
+ }
+ .left-title{
+     width: 3879px;
+     height: 82px;
+     /*margin: 0 auto;*/
+     background-image: url("../images/zuo.png");
+     background-repeat: no-repeat;
+     background-position:  890px center;
+ }
+ .left{
+     width: 1892px;
+     height: 945px;
+     margin-top: 30px;
+     background-repeat: no-repeat;
+     background-position:  center center;
+ }
+ .wuran{
+     width: 548px;
+     height: 943px;
+     float: left;
+ }
+ .wuran-mid,.wuran-bottom{
+    margin-top: 12px;
+}
+ /*污染源*/
+ .wuran-top{
+     width: 548px;
+     height: 195px;
+     padding: 10px 0 0  15px;
+     font-family: ﻿MicrosoftYaHei;
+     font-size: 26px;
+     letter-spacing: 0px;
+     color: #ffffff;
+     background-image: url("../images/wuranyuan.png");
+     background-repeat: no-repeat;
+     background-position:  center center;
+ }
+.conLeft-water-l{
+    padding:51px 0 81px 80px;
+    font-family: ﻿AdobeHeitiStd-Regular;
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    color: #00ffff;
+    background-image: url("../images/xingzhuang1.png");
+    background-repeat: no-repeat;
+    background-position: 0px  center;
+    /*background-size:1307px 407px;*/
+}
+.conLeft-water-r1{
+    background-image: url("../images/xingzhung.png");
+    background-repeat: no-repeat;
+    background-position: 0px  center;
+    padding:10px 5px 0 45px;
+}
+.conLeft-water-r2{
+    background-image: url("../images/xingzhuang2.png");
+    background-repeat: no-repeat;
+    background-position: 0px  center;
+    padding:10px 0 0 45px;
+}
+.conLeft-water-r3{
+    background-image: url("../images/xingzhuang641.png");
+    background-repeat: no-repeat;
+    background-position: 0px  center;
+    padding:10px 2px 0 45px;
+}
+.conLeft-water-r4{
+    background-image: url("../images/xingzhuang642.png");
+    background-repeat: no-repeat;
+    background-position: 0px  center;
+    padding:10px 0 0 48px;
+}
+/*污染源结束*/
+/*污染源在线监控*/
+ .wuran-mid{
+     width: 548px;
+     height: 410px;
+     padding: 10px 0 0  15px;
+     background-image: url("../images/污染源在线监控.png");
+     background-repeat: no-repeat;
+     background-position:  center center;
+ }
+ .wuran-mid-title{
+     width: 182px;
+     height: 26px;
+     margin:0 0 16px 0;
+     font-family: MicrosoftYaHei;
+     font-size: 26px;
+     line-height: 40px;
+     letter-spacing: 0px;
+     color: #ffffff;
+ }
+.conLeft-waterMontor-liner{
+    width: 288px;
+    height: 21px;
+    display: inline-block;
+    margin-left: 35px;
+    background: -webkit-linear-gradient(left, #01c2e6 , #eeec15); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #01c2e6 , #eeec15); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,#01c2e6 , #eeec15); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #01c2e6 , #eeec15); /* 标准的语法（必须放在最后） */
+}
+.wuranyuan-jia{
+    margin-left: 10px !important;
+}
+/*污染源在线监控结束*/
+/*污染源视频监控*/
+ .wuran-bottom{
+     width: 548px;
+     height: 314px;
+     padding: 10px 0 0  15px;
+     background-image: url("../images/污染源视频监控.png");
+     background-repeat: no-repeat;
+     background-position:  center center;
+ }
+/*污染源视频监控结束*/
+ /*水质环境*/
+ .shuizhi{
+     width: 1334px;
+     height: 943px;
+     float: right;
+     padding: 10px 0 0  15px;
+     background-image: url("../images/shuizhihuanjing.png");
+     background-repeat: no-repeat;
+     background-position:  center center;
+ }
+.conLeft-water-z p{
+    width: 38px;
+    /*height: 494px;*/
+    font-family: MicrosoftYaHeiLight;
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: 0px;
+    color: #fff84e;
+}
+/*水质排名表格*/
+ #shuizhibiao tr:nth-child(even){
+    /*background-color: red;*/
+    background-color: rgba(20, 73, 161, 0.15);
+}
+.qushi{
+    background-image: url("../images/xingzhuang690.png");
+    background-repeat: no-repeat;
+    background-position: 150px center;
+}
+  .conRight-tr-tdGreen{
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+    line-height: 26px;
+    background-color: #6bd35a;
+}
+.conRight-tr-tdYellow{
+    display: inline-block;
+    width: 50px  ;
+    height: 26px  ;
+    line-height: 26px;
+    background-color: #41a5e6;
+}
+/*水质环境结束*/
+/*左边页面结束*
+*/

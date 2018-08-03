@@ -1,0 +1,158 @@
+<div class="mid" ng-controller="rightCtrl">
+    <div class="mid-title"></div>
+    <div class="mid-daqi">
+        <div style="width:1909px ;height: 329px; ">
+            <div style="width:864px ;height: 329px;float: left;padding: 10px 0 0  15px;">
+                <p class="wuran-mid-title" >大气质量环境</p>
+                <p style="display: block;width: 845px;height: 56px;line-height:56px;background-color: rgba(20, 73, 161, 1);font-size: 20px;color: #00ffff;">
+                    &nbsp;主城区<sapn style=" padding-left: 640px ;  font-size: 14px;color: #ffffff;">2017年12月15日</sapn></p>
+                <div style="width: 307px;height: 220px;float: left;">
+                    <div class="conRight-air-day" >
+                        <label class="conRight-air-day-1">2</label>
+                        <label class="conRight-air-day-1">2</label>
+                        <label class="conRight-air-day-2">AQI</label>
+                    </div>
+                    <div style="width: 307px;height: 100px; ">
+                        <table class="conRight-air-j" align="center" style="border-collapse: collapse">
+                            <tr>
+                                <td class="conRight-air-jc">空气质量评价</td>
+                                <td align="right" class="conRight-air-day-count"> <span class="conRight-air-day-countg daqi-liang">&nbsp;良</span></td>
+                            </tr>
+                            <tr>
+                                <td class="conRight-air-jc">首要超标污染物</td>
+                                <td  align="right" class="conRight-air-day-count">PM2.5</td>
+                            </tr>
+                            <tr>
+                                <td class="conRight-air-jc">空气自动监测站</td>
+                                <td align="right" class="conRight-air-day-count  conRight-air-jcc">44<span class="conRight-air-day-countg">&nbsp;个</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div style="width: 307px;height: 220px;float: left;margin-left: 28px">
+                    <div class="conRight-air-day" >
+                        <label class="conRight-air-day-1">3</label>
+                        <label class="conRight-air-day-1">6</label>
+                        <label class="conRight-air-day-1">1</label>
+                        <label class="conRight-air-day-2">优良天数</label>
+                    </div>
+                    <div style="width: 307px;height: 200px;">
+                        <table class="conRight-air-j" align="center" style="border-collapse: collapse">
+                            <tr>
+                                <td class="conRight-air-jc">有效监测天数</td>
+                                <td  align="right" class="conRight-air-day-count">365<span class="conRight-air-day-countg">&nbsp;天</span></td>
+                            </tr>
+                            <tr>
+                                <td class="conRight-air-jc">空气质量超标天数</td>
+                                <td align="right" class="conRight-air-day-count  conRight-air-jcc">4<span class="conRight-air-day-countg">&nbsp;天</span></td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+                <div style="width: 120px;height: 220px;float: left;">
+                    <!--<p style="display: block; font-size: 16px;text-align: center;margin-top: 1px;color: #FFFFFF">优良天数比例</p>-->
+                    <div options="youliang" cgs-echarts=""   style="width: 190px;height:195px;"></div>
+                </div>
+            </div>
+            <div style="width:1032px ;height: 329px;float: right;margin-left: 13px; padding:54px 0 0 0  ">
+                <div style="width:522px ;height: 270px;float: left; ">
+                    <p style="display: block;width: 500px;height: 56px;line-height:56px;background-color: rgba(20, 73, 161, 1);font-size: 20px;color: #00ffff;">
+                        &nbsp;实时空气质量<sapn style=" padding-left: 240px ;font-size: 14px;color: #ffffff;display: inline-block;">201712-15 &nbsp;9时</sapn></p>
+                    <div options="airjianbiantiao" cgs-echarts=""   style="width: 495px;height:200px;"></div>
+                    <div class="caitiao" style="width: 450px;height: 50px; position: relative" >
+                        <ul style="position: absolute;top: -26%;">
+                            <li>优</li>
+                            <li>良</li>
+                            <li>轻度污染</li>
+                            <li>中度污染</li>
+                            <li>重度污染</li>
+                            <li>严重污染</li>
+                            <li>暂无数据</li>
+
+                        </ul>
+                        <ul class="caitiao-ul">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="width:490px ;height: 270px;float: left;margin-left: 13px; ">
+                    <p style="display: block;width: 480px;height: 56px;line-height:56px;background-color: rgba(20, 73, 161, 1);font-size: 20px;color: #00ffff;">
+                        &nbsp;实施污染物情况<sapn style=" padding-left: 190px ;  font-size: 14px;color: #ffffff;display: inline-block;">2017年12月15日</sapn></p>
+                    <div options="wuranwu" cgs-echarts=""   style="width: 480px;height:200px;"></div>
+                </div>
+            </div>
+        </div>
+        <div style="width: 1909px;height: 630px;padding:0 0 0 15px  ">
+            <div style="width: 520px;height: 615px; float: left; ">
+                <p style="display: block;width: 480px;height: 56px;line-height:56px;background-color: rgba(20, 73, 161, 1);font-size: 20px;color: #00ffff;">
+                    &nbsp;全国重点城市空气质量 ( AQI ) 实时排名</p>
+                <table align="center" class="air-table" style="border-collapse: collapse ">
+                    <tr class="conRight-air-rank1-title" style="color: #00ffff;" align="center">
+                        <td>排名</td>
+                        <td>城市</td>
+                        <td>空气质量指数</td>
+                        <td>污染等级</td>
+                    </tr>
+                    <tr ng-repeat="item in airList" align="center" ng-class="{'active':isSelect==$index}" ng-click="selectMe($index)" >
+                        <td>{{item.id}}</td>
+                        <td>{{item.name}}</td>
+                        <td>{{item.zhishu}}</td>
+                        <td>{{item.level}}</td>
+                    </tr>
+                </table>
+            </div>
+            <div style="width: 1370px;height: 615px;float: right; ">
+                <div style="width: 1370px;height: 293px;float: right; ">
+                    <div style="width: 665px;height: 293px;float: left;  ">
+                        <p style="display: block;width: 670px;height: 56px;line-height:56px;background-color: rgba(20, 73, 161, 1);font-size: 20px;color: #00ffff;">
+                            &nbsp; 海西州24小时趋势图</p>
+                        <div options="haiXiZhou" cgs-echarts=""   style="width: 645px;height:230px;padding:10px 0 0 0 "></div>
+                    </div>
+                    <div style="width: 662px;height: 293px;float: right; ">
+                        <p style="display: block;width: 645px;height: 56px;line-height:56px;background-color: rgba(20, 73, 161, 1);font-size: 20px;color: #00ffff;">
+                            &nbsp; 各站点AQI趋势图</p>
+                        <div options="aqiQuShi" cgs-echarts=""   style="width: 645px;height:200px;margin:50px 0 0 0 "></div>
+                    </div>
+                
+                </div>
+                <div style="width: 1370px;height: 322px;float: right;  ">
+                    <p style="display: block;width: 1350px;height: 56px;line-height:56px;background-color: rgba(20, 73, 161, 1);font-size: 20px;color: #00ffff;">
+                        &nbsp; 各区县空气优良人数比例</p>
+                    <div class="shuiqiuq" style="width: 265px;height:260px;float:left;position: relative;">
+                        <div options="shuiqiu1" cgs-echarts=""   style="width: 150px;height:245px;padding:0px 0 0 0 "></div>
+                        <p class="shuiqiu-y">优良天数 &nbsp; 26天</p>
+                        <p >超标天数 &nbsp; 4天</p>
+                    </div>
+                    <div class="shuiqiuq" style="width: 265px;height:260px;float:left;position: relative;">
+                        <div options="shuiqiu1" cgs-echarts=""   style="width: 150px;height:245px;padding:0px 0 0 0 "></div>
+                        <p class="shuiqiu-y">优良天数 &nbsp; 26天</p>
+                        <p >超标天数 &nbsp; 4天</p>
+                    </div>
+                    <div class="shuiqiuq" style="width: 265px;height:260px;float:left;position: relative;">
+                        <div options="shuiqiu1" cgs-echarts=""   style="width: 150px;height:245px;padding:0px 0 0 0 "></div>
+                        <p class="shuiqiu-y">优良天数 &nbsp; 26天</p>
+                        <p >超标天数 &nbsp; 4天</p>
+                    </div>
+                    <div class="shuiqiuq" style="width: 265px;height:260px;float:left;position: relative;">
+                        <div options="shuiqiu1" cgs-echarts=""   style="width: 150px;height:245px;padding:0px 0 0 0 "></div>
+                        <p class="shuiqiu-y">优良天数 &nbsp; 26天</p>
+                        <p >超标天数 &nbsp; 4天</p>
+                    </div>
+                    <div class="shuiqiuq" style="width: 265px;height:260px;float:left;position: relative;">
+                        <div options="shuiqiu1" cgs-echarts=""   style="width: 150px;height:245px;padding:0px 0 0 0 "></div>
+                        <p class="shuiqiu-y">优良天数 &nbsp; 26天</p>
+                        <p >超标天数 &nbsp; 4天</p>
+                    </div>
+                </div>
+              </div>
+
+        </div>
+    </div>
+</div>

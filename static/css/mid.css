@@ -1,0 +1,411 @@
+/*中间页面*/
+/*采用缩放比缩放页面*/
+html ,body{
+    transform:scale(0.70,0.73);
+    transform-origin :left top 0px;
+}
+/*主页面放缩来做 top left | left top 等价于 0 0；*/
+
+.mid{
+    width:1920px;
+    height: 1080px;
+    padding:10px 0px 0px 0px;
+    background-image: url("../images/中.png");
+    background-repeat: no-repeat;
+    background-position:   0px center;
+}
+.mid-title{
+    width: 3879px;
+    height: 82px;
+    background-image: url("../images/zhong.png");
+    background-repeat: no-repeat;
+    background-position:  0px center;
+}
+
+.mid-daqi{
+    width: 1909px;
+    height: 945px;
+    margin-top: 30px;
+    background-image: url("../images/daqi.png");
+    background-repeat: no-repeat;
+    background-position:  center center;
+}
+/*空气质量排名的表格*/
+/*选中的颜色*/
+
+.air-table{
+    width: 475px;
+    height: 544px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+.air-table tr:nth-child(even){
+    background-color: rgba(20, 73, 161, 0.15);
+
+}
+.air-table tr.active{
+    border: solid 1px #00ffff;
+}
+/*大气环境主城区*/
+.conRight-air-day{
+    width: 317px;
+    height: 120px;
+    padding: 25px 40px 60px 39px;
+    border-bottom: 1px solid #1449a1;
+    position: relative;
+    /*background-color: red;*/
+}
+.conRight-air-day .conRight-air-day-1{
+    display: inline-block;
+    width: 58px;
+    height: 78px;
+    line-height: 78px;
+    text-align: center;
+    font-family: ﻿ArialMT;
+    font-size: 70px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    background-color: rgba(38, 76, 145, 1);
+}
+.conRight-air-day .conRight-air-day-2{
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    top:58%;
+    left: 78%;
+    font-family: ﻿MicrosoftYaHei;
+    font-size: 14px;
+    line-height: 5px;
+    color: #00ffff;
+}
+.conRight-air-j{
+    width: 300px;
+    height: 100px;
+    line-height: 5px;
+}
+.conRight-air-jc{
+    font-family: ﻿MicrosoftYaHei;
+    font-size: 14px;
+    line-height: 5px;
+    color: #00ffff;
+    padding-left: 30px;
+}
+.conRight-air-day-count{
+    font-family: ﻿MicrosoftYaHei;
+    font-size: 16px;
+    line-height: 5px;
+    color: #fff84e;
+}
+.conRight-air-day-countg{
+
+    font-size: 14px;
+    color: #ffffff;
+}
+.daqi-liang{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #f6e200;
+    text-align: center;
+}
+.conRight-air-jcc{
+    color: #f09b2e;
+}
+/*中间页面结束*/
+/*右边页面开始*/
+.right{
+    width: 1920px;
+    height: 1080px;
+    background-image: url("../images/右.png");
+    background-repeat: no-repeat;
+    background-position:  0px center;
+}
+/*//为时间按做定位*/
+.right-title{
+    width: 3879px;
+    height: 82px;
+    position: relative;
+    background-image: url("../images/you.png");
+    background-repeat: no-repeat;
+    background-position: 0px center;
+}
+.right-top{
+    width: 1895px;
+    height: 488px;
+    margin-top: 31px;
+    padding:10px 0 0 15px;
+    background-image: url("../images/建设项目.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.right-bottom1{
+    padding:10px 0 0 15px;
+    background-image: url("../images/污染物排放.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.right-bottom2{
+    padding:10px 0 0 20px;
+    background-image: url("../images/行政处罚.png");
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+.paifangz{
+    display: inline-block;
+    /*width: 156px;*/
+    height: 28px;
+    padding: 10px 0 0 20px;
+    font-family: MicrosoftYaHei;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #00ffff;
+}
+.paifangs{
+    /*display: inline-block;*/
+    /*width: 153px;*/
+    height: 29px;
+    padding: 40px 0 0 340px;
+    font-family: MicrosoftYaHei;
+    font-size: 38px;
+    /*font-weight: normal;*/
+    /*font-stretch: normal;*/
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #f6e200;
+}
+/*污染物排放*/
+.conRight-issue-table1{
+    width: 400px;
+    height: 25px;
+    position: relative;
+    left: 21%;
+    top:-15%
+}
+.conRight-issue-table1 ul li{
+    float: left;
+    list-style: none;
+    font-family: ﻿MicrosoftYaHei;
+    text-align: left;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.conRight-issue-table1 ul li:nth-child(1){
+    position: absolute;
+    left: 0%;
+    top:60%;
+}
+.conRight-issue-table1 ul li:nth-child(2){
+    position: absolute;
+    left: 36%;
+    top:60%;
+}
+.conRight-issue-table1 ul li:nth-child(3){
+    position: absolute;
+    left: 60%;
+    top:60%;
+}
+.conRight-issue-table1 ul li:nth-child(4){
+    position: absolute;
+    width: 220px;
+    left: 79%;
+    top:60%;
+}
+.conRight-issue .conRight-issue-table2 ul li{
+    top:0%;
+}
+.conRight-issue .conRight-issue-table3 {
+    top:-18%;
+}
+.conRight-issue .conRight-issue-table4{
+    left: 17%;
+}
+.conRight-issue-table4 ul li:nth-child(2){
+    position: absolute;
+    left: 60%;
+    top:90%;
+}
+.conRight-issue-table4 ul li:nth-child(3){
+    position: absolute;
+    width: 220px;
+    left: 76%;
+    top:90%;
+}
+/*一大串的金额*/
+.jine{
+    width: 610px;
+    border: none;
+    margin-top: 15px;
+
+}
+.jinee{
+    display: inline-block;
+    width: 62px;
+    height: 105px;
+    line-height: 105px;
+    text-align: center;
+    font-family: ﻿ArialMT;
+    font-size: 70px;
+    font-weight: normal;
+    font-stretch: normal;
+    background-color: rgba(38, 76, 145, 1);
+    /*line-height: 40px;*/
+    letter-spacing: 1px;
+    color: #ffffff ;
+    /*margin-left: 1px;*/
+}
+/*各区县占比*/
+.quxianzhanbi{
+    display: inline-block;
+    width: 290px;
+    height: 170px;
+    padding: 8px;
+    margin-left: 10px;
+    background-color: rgba(20, 73, 161, 0.2);
+}
+.touzi{
+    width: 258px;
+    height: 14px;
+    border-radius: 6px;
+    border:1px solid  #c2c2c2;
+}
+/*progress::-moz-progress-bar { background: #0064B4; }*/
+progress::-webkit-progress-bar { background: rgba(19,36,65,0.5);  border:1px solid  #c2c2c2;
+    padding: 1px;}
+progress::-webkit-progress-value  { background: #00ffff; }
+/*实时空气里面的污染非配彩条*/
+.caitiao ul{
+    list-style: none;
+    margin-left: 25px;
+
+}
+.caitiao ul li{
+    float: left;
+    /*display: inline-block;*/
+    width: 56px;
+    height: 10px;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+.caitiao .caitiao-ul li:nth-child(1){
+    background-image: linear-gradient(0deg,
+    #30ec76 0%,
+    #31aa50 100%);
+}
+.caitiao .caitiao-ul li:nth-child(2){
+    background-image: linear-gradient(0deg,
+    #ffe221 0%,
+    #ffc62f 100%);
+}
+.caitiao .caitiao-ul li:nth-child(3){
+    background-image: linear-gradient(0deg,
+    #fe941a 0%,
+    #ff5e28 100%);
+}
+.caitiao .caitiao-ul li:nth-child(4){
+    background-image: linear-gradient(0deg,
+    #fd2d44 0%,
+    #ea2b2c 100%);
+}
+.caitiao .caitiao-ul li:nth-child(5){
+    background-image: linear-gradient(0deg,
+    #8c2be9 0%,
+    #701ed4 100%);
+}
+.caitiao .caitiao-ul li:nth-child(6){
+    background-image: linear-gradient(0deg,
+    #00eaff 0%,
+    #588596 0%,
+    #b0202d 0%,
+    #88030c 100%);
+}
+.caitiao .caitiao-ul li:nth-child(7){
+    background-image: linear-gradient(0deg,
+    #00eaff 0%,
+    #61d7e7 0%,
+    #c2c4cf 0%,
+    #b0bbc8 100%);
+}
+/*水球*/
+.shuiqiuq p{
+    position: absolute;
+    display: block;
+    width: 99px;
+    height: 54px;
+    /*padding:0 0 0 5px;*/
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    /*font-weight: normal;*/
+    /*font-stretch: normal;*/
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+.shuiqiu-y{
+    top: 35%;
+    left: 55%;
+}
+.shuiqiuq p:last-child{
+    top: 49%;
+    left: 55%;
+}
+/*右边的时间*/
+.conRight-date{
+    width: 292px;
+    height: 100px;
+    position: absolute;
+    left: 41%;
+    top: -19%;
+    /*float: right;*/
+    /*margin-left: 30px;*/
+    /*margin-right: 32px;*/
+    /*margin-top: -22.5px;*/
+}
+.conRight-date-l,.conRight-date-r{
+    float: left;
+}
+.conRight-date-d{
+    width: 133px;
+    height: 29px;
+    padding:41px 0 16px 9px ;
+    font-family: ﻿MicrosoftYaHei;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #00ffff;
+}
+.conRight-date-x{
+    width: 133px;
+    height: 19px;
+    font-family: ﻿MicrosoftYaHei;
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 25px;
+    letter-spacing: 2.4px;
+    color: #00ffff;
+}
+.conRight-date-r{
+    width: 128px;
+    height: 37px;
+    padding:54px 0 54px 31px ;
+    font-family: ﻿MicrosoftYaHei;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #00ffff;
+}
+/*右边页面结束*/
